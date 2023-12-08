@@ -2,7 +2,33 @@
   box-sizing: border-box;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
+  --company-color1: #006d77;
+  --company-color2: #83c5be;
+  --company-color3: #643173;
+  --company-color4: #8c6057;
+  --company-color5: #ffc07f;
 }
-** {
-  box-sizing: border-box;
+
+h1 {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: var(--company-color1);
+}
+header {
+  background-color: var(--company-color5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+}
+nav {
+  display: flex;
+  justify-content: end;
+  background-color: var(--company-color3);
+}
+a {
+  color: #fff;
+  padding: space-evenly;
 }
